@@ -12,4 +12,8 @@ public class DrawingBoard {
     public ArrayList<Shape> getShapes (){
         return shapes;
     }
+    @Override 
+    public String toString(){
+        return shapes.toString();
+    }
 }

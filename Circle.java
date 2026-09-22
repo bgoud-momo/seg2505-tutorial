@@ -21,4 +21,9 @@ public class Circle extends Shape{
     public void rotate(double angle){
 
     }
+
+    @Override
+    public String toString() {
+        return "Circle(" + super.toString() + ", rayon=" + rayon + ")";
+    }
 } 

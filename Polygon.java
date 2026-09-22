@@ -7,4 +7,8 @@ public abstract class Polygon extends Shape{
     public int getNombreCotes(){
         return nombreCotes;
     }
+    @Override
+    public String toString() {
+      return super.toString() + ", nombreCotes=" + nombreCotes;
+   }
 }

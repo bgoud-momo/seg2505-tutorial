@@ -26,4 +26,9 @@ public abstract class Shape {
     }
 
     public abstract void rotate(double angle);
+
+   @Override
+   public String toString() {
+      return "x=" + x + ", y=" + y;
+   }
 }

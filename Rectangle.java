@@ -14,4 +14,9 @@ public class Rectangle extends Polygon{
     }
     @Override
     public void rotate (double angle){}
+
+    @Override
+    public String toString() {
+        return "Rectangle(" + super.toString() + ", largeur=" + largeur + ", hauteur=" + hauteur + ")";
+    }    
 }

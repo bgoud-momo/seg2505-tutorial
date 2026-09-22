@@ -5,4 +5,8 @@ public class Triangle extends Polygon{
 
     @Override
     public void rotate (double angle) {}
+    @Override
+    public String toString() {
+        return "Triangle(" + super.toString() + ")";
+    }
 }
